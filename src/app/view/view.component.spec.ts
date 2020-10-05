@@ -1,4 +1,5 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { TransformPipe } from '../pipe/transform.pipe';
 
 import { ViewComponent } from './view.component';
 
@@ -8,7 +9,7 @@ describe('ViewComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ ViewComponent ]
+      declarations: [ ViewComponent,TransformPipe ]
     })
     .compileComponents();
   });
